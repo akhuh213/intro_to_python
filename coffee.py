@@ -26,4 +26,4 @@ adam_cup.drink(8)
 
 pete_cup.fill()
 pete_cup.drink(6)
-print(f"Pete has only {pete_cup.amount}oz. of coffee left")
+print("Pete has only {}oz. of coffee left".format(pete_cup.amount))
